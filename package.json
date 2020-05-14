@@ -10,7 +10,11 @@
     "start": "node server.js"
   },
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "request":"*",
+    "nunjucks": "3.2.1",
+    "express-fileupload": "*",
+    "sharp":"*"
   },
   "engines": {
     "node": "12.x"
