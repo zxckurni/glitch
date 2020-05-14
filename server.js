@@ -12,7 +12,7 @@ const dreams = [
   "Climb a really tall mountain",
   "Wash the dishes"
 ];
-const Tools = require('request')
+const Tools = require('./Tools')
 
 // make all the files in 'public' available
 // https://expressjs.com/en/starter/static-files.html
@@ -28,7 +28,7 @@ app.get("/dreams", (request, response) => {
   // express helps us take JS objects and send them as JSON
   response.json(dreams);
 });
-
+new Tools(app)
 // listen for requests :)
 const listener = app.listen(process.env.PORT, () => {
   console.log("Your app is listening on port " + listener.address().port);
