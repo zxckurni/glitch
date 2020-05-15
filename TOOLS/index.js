@@ -3,7 +3,7 @@
 const Toolings = {
     google : require('./google'),
     proxy: require('./proxy'),
-    image: require('./image'),
+    // image: require('./image'),
 }
 
 module.exports = class TOOLS{
