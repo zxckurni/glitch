@@ -1,33 +1,25 @@
 {
-  "//1": "describes your app and its dependencies",
-  "//2": "https://docs.npmjs.com/files/package.json",
-  "//3": "updating this file will download and update your packages",
-  "name": "hello-express",
-  "version": "0.0.1",
-  "description": "A simple Node app built on Express, instantly up and running.",
+  "name": "nodeimg",
+  "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "test": "echo  1",
     "start": "node index.js"
   },
+  "author": "AZ",
+  "license": "ISC",
   "dependencies": {
+    "bitly": "^7.0.1",
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
     "express-fileupload": "^1.1.6",
-    "merge-descriptors": "^1.0.1",
-    "nunjucks": "^3.2.1",
+    "merge-descriptors": "1.0.1",
+    "nunjucks": "3.2.1",
     "request": "^2.88.2",
-    "sharp": "^0.25.2"
+    "sharp": "^0.25.3"
   },
   "engines": {
-    "node": "12.x"
+    "node": "^12"
   },
-  "repository": {
-    "url": "https://glitch.com/edit/#!/hello-express"
-  },
-  "license": "MIT",
-  "keywords": [
-    "node",
-    "glitch",
-    "express"
-  ]
+  "description": ""
 }
