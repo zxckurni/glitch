@@ -1,5 +1,5 @@
 'use strict';
-
+const cron = require('./cron')
 const Toolings = {
     google : require('./google'),
     proxy: require('./proxy'),
