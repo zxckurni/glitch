@@ -1,7 +1,7 @@
 'use strict'
 const CronJob = require('cron').CronJob
 const request = require('request')
-var job = new CronJob(`30 * * * * *`, function () {
+var job = new CronJob(`30 4 * * * *`, function () {
     let List = ['https://skinny-wool-petroleum.glitch.me/','https://granite-cyan-surf.glitch.me/','https://freezing-spectacular-chronometer.glitch.me/','https://hilarious-inquisitive-odometer.glitch.me/']
     !function AdaJob(e,h,b){
         if(b)console.log(b);
