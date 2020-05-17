@@ -1,3 +1,7 @@
 fungsi ini agar app tidak sleep
 request dalam waktu interval 4.5 menit atau '30 4 * * * *' https://www.npmjs.com/package/cron
 
+http://skinny-wool-petroleum.glitch.me/ menjalankan cron request ke https://granite-cyan-surf.glitch.me/ setiap 4menit 30 detik
+ketika https://granite-cyan-surf.glitch.me/ menerima akses fungsi cron, kemudian langsung akses http://freezing-spectacular-chronometer.glitch.me/
+ketika http://freezing-spectacular-chronometer.glitch.me/ menerima akses fungsi cron, kemudian langsung akses https://hilarious-inquisitive-odometer.glitch.me/
+
